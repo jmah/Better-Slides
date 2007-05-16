@@ -12,10 +12,17 @@
 
 @interface BSPlugin : NSObject
 {
-
 }
 
 
+#pragma mark Installing the SIMBL plugin
 + (void)install;
+
+#pragma mark Getting the bundle identifier
++ (NSString *)bundleIdentifier;
+
+#pragma mark Managing defaults
++ (NSMutableDictionary *)defaults;
++ (NSArray *)ratios;
 
 @end

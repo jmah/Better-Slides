@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>presentationRatios</key>
+	<array>
+		<string>4:3</string>
+		<string>16:9</string>
+		<string>59.3:37</string>
+	</array>
+	<key>ratioTolerance</key>
+	<real>0.01</real>
+</dict>
+</plist>

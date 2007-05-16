@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		28467F9309EE477600BA4292 /* BSPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 28467F9209EE477600BA4292 /* BSPlugin.m */; };
 		2846814E09EE5EF400BA4292 /* BSPDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2846814D09EE5EF400BA4292 /* BSPDFView.m */; };
+		2858F4D70BFB21A00095A359 /* RegistrationDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2858F4D60BFB21A00095A359 /* RegistrationDefaults.plist */; };
 		287E4ED90A5976500060AA3B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 287E4ED70A5976500060AA3B /* InfoPlist.strings */; };
 		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
@@ -21,6 +22,7 @@
 		28467F9209EE477600BA4292 /* BSPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSPlugin.m; sourceTree = "<group>"; };
 		2846814C09EE5EF400BA4292 /* BSPDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSPDFView.h; sourceTree = "<group>"; };
 		2846814D09EE5EF400BA4292 /* BSPDFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSPDFView.m; sourceTree = "<group>"; };
+		2858F4D60BFB21A00095A359 /* RegistrationDefaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = RegistrationDefaults.plist; sourceTree = "<group>"; };
 		287E4ECF0A5976140060AA3B /* PVPDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVPDFView.h; sourceTree = "<group>"; };
 		287E4ED80A5976500060AA3B /* en */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		287E4F0C0A59778B0060AA3B /* 10_4 Shared.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "10_4 Shared.xcconfig"; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 			children = (
 				8D5B49B7048680CD000E48DA /* Info.plist */,
 				287E4ED70A5976500060AA3B /* InfoPlist.strings */,
+				2858F4D60BFB21A00095A359 /* RegistrationDefaults.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				287E4ED90A5976500060AA3B /* InfoPlist.strings in Resources */,
+				2858F4D70BFB21A00095A359 /* RegistrationDefaults.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

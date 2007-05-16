@@ -16,4 +16,8 @@
 }
 
 
+#pragma mark Discovering if the document size matches a presentation
+- (void)_BS_discoverPresentationState;
+- (BOOL)_BS_isPresentation;
+
 @end
