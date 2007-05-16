@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28467F9309EE477600BA4292 /* BSPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 28467F9209EE477600BA4292 /* BSPlugin.m */; };
+		2846814E09EE5EF400BA4292 /* BSPDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2846814D09EE5EF400BA4292 /* BSPDFView.m */; };
+		287E4ED90A5976500060AA3B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 287E4ED70A5976500060AA3B /* InfoPlist.strings */; };
+		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		28467F9109EE477600BA4292 /* BSPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSPlugin.h; sourceTree = "<group>"; };
+		28467F9209EE477600BA4292 /* BSPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSPlugin.m; sourceTree = "<group>"; };
+		2846814C09EE5EF400BA4292 /* BSPDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSPDFView.h; sourceTree = "<group>"; };
+		2846814D09EE5EF400BA4292 /* BSPDFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSPDFView.m; sourceTree = "<group>"; };
+		287E4ECF0A5976140060AA3B /* PVPDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVPDFView.h; sourceTree = "<group>"; };
+		287E4ED80A5976500060AA3B /* en */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		287E4F0C0A59778B0060AA3B /* 10_4 Shared.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "10_4 Shared.xcconfig"; sourceTree = "<group>"; };
+		287E4F0D0A59778B0060AA3B /* Cocoa Application Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Cocoa Application Debug.xcconfig"; sourceTree = "<group>"; };
+		287E4F0E0A59778B0060AA3B /* Cocoa Application Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Cocoa Application Release.xcconfig"; sourceTree = "<group>"; };
+		287E4F0F0A59778B0060AA3B /* Cocoa Application Shared.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Cocoa Application Shared.xcconfig"; sourceTree = "<group>"; };
+		287E4F100A59778B0060AA3B /* Cocoa Test Suite Code Coverage.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Cocoa Test Suite Code Coverage.xcconfig"; sourceTree = "<group>"; };
+		287E4F110A59778B0060AA3B /* Cocoa Test Suite Unit Tests.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Cocoa Test Suite Unit Tests.xcconfig"; sourceTree = "<group>"; };
+		287E4F120A59778B0060AA3B /* Cocoa Test Suite.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Cocoa Test Suite.xcconfig"; sourceTree = "<group>"; };
+		287E4F130A59778B0060AA3B /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		287E4F140A59778B0060AA3B /* Metadata Importer Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Metadata Importer Debug.xcconfig"; sourceTree = "<group>"; };
+		287E4F150A59778B0060AA3B /* Metadata Importer Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Metadata Importer Release.xcconfig"; sourceTree = "<group>"; };
+		287E4F160A59778B0060AA3B /* Metadata Importer Shared.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Metadata Importer Shared.xcconfig"; sourceTree = "<group>"; };
+		287E4F170A59778B0060AA3B /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		287E4F180A5977E20060AA3B /* SIMBL Plug-in Shared.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "SIMBL Plug-in Shared.xcconfig"; sourceTree = "<group>"; };
+		28836D160A5993BD004A127A /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		32DBCF630370AF2F00C91783 /* Better Slides Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Better Slides Prefix.pch"; sourceTree = "<group>"; };
+		8D5B49B6048680CD000E48DA /* Better Slides.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Better Slides.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2F7E65807B2D6F200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D5B49B3048680CD000E48DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* Better Slides */ = {
+			isa = PBXGroup;
+			children = (
+				28836D160A5993BD004A127A /* LICENSE.txt */,
+				287E4F0B0A59778B0060AA3B /* Common Build Configurations */,
+				287E4ECC0A5976140060AA3B /* Preview Headers */,
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				32C88E010371C26100C91783 /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = "Better Slides";
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B7048680CD000E48DA /* Info.plist */,
+				287E4ED70A5976500060AA3B /* InfoPlist.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				28467F9109EE477600BA4292 /* BSPlugin.h */,
+				28467F9209EE477600BA4292 /* BSPlugin.m */,
+				2846814C09EE5EF400BA4292 /* BSPDFView.h */,
+				2846814D09EE5EF400BA4292 /* BSPDFView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+				D2F7E65807B2D6F200F64583 /* CoreData.framework */,
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B6048680CD000E48DA /* Better Slides.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		287E4ECC0A5976140060AA3B /* Preview Headers */ = {
+			isa = PBXGroup;
+			children = (
+				287E4ECF0A5976140060AA3B /* PVPDFView.h */,
+			);
+			path = "Preview Headers";
+			sourceTree = "<group>";
+		};
+		287E4F0B0A59778B0060AA3B /* Common Build Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				287E4F0C0A59778B0060AA3B /* 10_4 Shared.xcconfig */,
+				287E4F130A59778B0060AA3B /* Debug.xcconfig */,
+				287E4F170A59778B0060AA3B /* Release.xcconfig */,
+				287E4F0F0A59778B0060AA3B /* Cocoa Application Shared.xcconfig */,
+				287E4F0D0A59778B0060AA3B /* Cocoa Application Debug.xcconfig */,
+				287E4F0E0A59778B0060AA3B /* Cocoa Application Release.xcconfig */,
+				287E4F120A59778B0060AA3B /* Cocoa Test Suite.xcconfig */,
+				287E4F110A59778B0060AA3B /* Cocoa Test Suite Unit Tests.xcconfig */,
+				287E4F100A59778B0060AA3B /* Cocoa Test Suite Code Coverage.xcconfig */,
+				287E4F160A59778B0060AA3B /* Metadata Importer Shared.xcconfig */,
+				287E4F140A59778B0060AA3B /* Metadata Importer Debug.xcconfig */,
+				287E4F150A59778B0060AA3B /* Metadata Importer Release.xcconfig */,
+				287E4F180A5977E20060AA3B /* SIMBL Plug-in Shared.xcconfig */,
+			);
+			path = "Common Build Configurations";
+			sourceTree = "<group>";
+		};
+		32C88E010371C26100C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF630370AF2F00C91783 /* Better Slides Prefix.pch */,
+			);
+			path = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D5B49AC048680CD000E48DA /* Better Slides */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "Better Slides" */;
+			buildPhases = (
+				8D5B49AF048680CD000E48DA /* Resources */,
+				8D5B49B1048680CD000E48DA /* Sources */,
+				8D5B49B3048680CD000E48DA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Better Slides";
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = "Better Slides";
+			productReference = 8D5B49B6048680CD000E48DA /* Better Slides.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "Better Slides" */;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* Better Slides */;
+			projectDirPath = "";
+			targets = (
+				8D5B49AC048680CD000E48DA /* Better Slides */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D5B49AF048680CD000E48DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				287E4ED90A5976500060AA3B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D5B49B1048680CD000E48DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28467F9309EE477600BA4292 /* BSPlugin.m in Sources */,
+				2846814E09EE5EF400BA4292 /* BSPDFView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		287E4ED70A5976500060AA3B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				287E4ED80A5976500060AA3B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB913B08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 287E4F180A5977E20060AA3B /* SIMBL Plug-in Shared.xcconfig */;
+			buildSettings = {
+				GCC_PREFIX_HEADER = "Other Sources/Better Slides Prefix.pch";
+				INFOPLIST_FILE = Resources/Info.plist;
+				PRODUCT_NAME = "Better Slides";
+			};
+			name = Debug;
+		};
+		1DEB913C08733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 287E4F180A5977E20060AA3B /* SIMBL Plug-in Shared.xcconfig */;
+			buildSettings = {
+				GCC_PREFIX_HEADER = "Other Sources/Better Slides Prefix.pch";
+				INFOPLIST_FILE = Resources/Info.plist;
+				PRODUCT_NAME = "Better Slides";
+			};
+			name = Release;
+		};
+		1DEB913F08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 287E4F130A59778B0060AA3B /* Debug.xcconfig */;
+			buildSettings = {
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		1DEB914008733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 287E4F170A59778B0060AA3B /* Release.xcconfig */;
+			buildSettings = {
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "Better Slides" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913B08733D840010E9CD /* Debug */,
+				1DEB913C08733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "Better Slides" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913F08733D840010E9CD /* Debug */,
+				1DEB914008733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
